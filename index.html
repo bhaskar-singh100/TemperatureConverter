@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <h1>Temperature Converter</h1>
+        <div id="action">Select any one to convert them</div><br>
+        <div class="tempfuction">
+            <input type="radio" name="unit" id="ctof">Celcius to Fahrenheit<br>
+            <input type="radio" name="unit" id="ftoc">Fahrenheit to Celcius<br>
+            <input type="radio" name="unit" id="ktof">Kelvin to Fahrenheit<br>
+            <input type="radio" name="unit" id="ftok">Fahrenheit to Kelvin<br>
+            <input type="radio" name="unit" id="ktoc">Kelvin to Celcius<br>
+            <input type="radio" name="unit" id="ctok">Celcius to Kelvin <br>
+        </div>
+        <span id="nounit"></span><br>
+        <div class="input">
+            <input type="text" name="" id="value" placeholder = "Enter temperature">
+            
+        </div>
+        <div id="buttons"><button id="convert">Convert</button></div>
+        <span id="novalue"></span>
+        <p id="result"></p>
+        <script src = "converter.js"></script>
+    </div>
+</body>
+</html>
